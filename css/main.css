@@ -121,6 +121,7 @@ h1,h2,h3,h4,h5,h6 {
 
 .history {
 	margin-top: 50px;
+	
 }
 
 .history__title {
@@ -138,10 +139,14 @@ h1,h2,h3,h4,h5,h6 {
 
 
 .about {
-	padding: 60px 0 100px;  
+	padding: 60px 0 100px;
+	
+
 }
 .food-images {
-	display: block;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
 
 }
 .food-images__item {
@@ -209,9 +214,7 @@ footer {
 	padding: 72px 106px;
 
 }
-.socials {
 
-}
 
 .socials__item a {
 	width: 52px;
@@ -273,3 +276,13 @@ footer {
 	box-shadow: 0 0 50px black;
 }
 
+@media (max-width: 991.98px) { 
+
+	.book {
+		margin-top: 1rem;
+	}
+
+}
+
+
+ 
